@@ -1,0 +1,259 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-24T03:13:31.131Z",
+        "line": 23,
+        "name": "Verify navigation of Produk button at Flip Homepage",
+        "description": "",
+        "id": "flip-homepage;verify-navigation-of-\u003cbutton\u003e-button-at-flip-homepage;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9678250000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user goes to \"https://flip.id/landing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://flip.id/landing\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.CommonSteps.userGoesTo(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66451000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user sees homepage banner",
+            "match": {
+              "location": "steps.flip.FlipSteps.userSeesHomepageBanner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1149373000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks button \"Produk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Produk\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.flip.FlipSteps.userClicksButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30590000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user verifies the navigation of button \"Produk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Produk\"",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.flip.FlipSteps.userVerifiesTheNavigationOfButton(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-24T03:13:43.817Z",
+        "line": 24,
+        "name": "Verify navigation of Karir button at Flip Homepage",
+        "description": "",
+        "id": "flip-homepage;verify-navigation-of-\u003cbutton\u003e-button-at-flip-homepage;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7679040000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user goes to \"https://flip.id/landing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://flip.id/landing\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.CommonSteps.userGoesTo(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30828000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user sees homepage banner",
+            "match": {
+              "location": "steps.flip.FlipSteps.userSeesHomepageBanner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1193112000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks button \"Karir\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Karir\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.flip.FlipSteps.userClicksButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4395942000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user verifies the navigation of button \"Karir\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Karir\"",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.flip.FlipSteps.userVerifiesTheNavigationOfButton(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-24T03:13:58.765Z",
+        "line": 25,
+        "name": "Verify navigation of Masuk button at Flip Homepage",
+        "description": "",
+        "id": "flip-homepage;verify-navigation-of-\u003cbutton\u003e-button-at-flip-homepage;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9439200000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user goes to \"https://flip.id/landing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://flip.id/landing\"",
+                  "offset": 13
+                }
+              ],
+              "location": "steps.CommonSteps.userGoesTo(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27733000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user sees homepage banner",
+            "match": {
+              "location": "steps.flip.FlipSteps.userSeesHomepageBanner()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1108471000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user clicks button \"Masuk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Masuk\"",
+                  "offset": 19
+                }
+              ],
+              "location": "steps.flip.FlipSteps.userClicksButton(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5766000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user verifies the navigation of button \"Masuk\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Masuk\"",
+                  "offset": 39
+                }
+              ],
+              "location": "steps.flip.FlipSteps.userVerifiesTheNavigationOfButton(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag2"
+          }
+        ]
+      }
+    ],
+    "name": "Flip Homepage",
+    "description": "",
+    "id": "flip-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/flip/verifyNavbar.feature",
+    "tags": []
+  }
+]
