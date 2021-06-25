@@ -2,7 +2,7 @@
 
 Automation Test Web Flip.id
 
-FLOW
+FEATURES
 
 - VerifyDataList -
 This feature cannot run due to it only example of logic looping for checking all data table
